@@ -1,5 +1,8 @@
 # FPGA Text OLED Driver
 
+WIP
+will be uploaded soon
+
 **Verilog-2001 implementation of a 0.96" I²C OLED controller for FPGA text rendering with scalable font size.**
 
 This project provides a lightweight, synthesizable OLED text display driver written entirely in **Verilog-2001**.  
