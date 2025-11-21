@@ -8,7 +8,7 @@ It allows an FPGA design to render ASCII text directly on a 0.96-inch I²C OLED 
 
 This repository contains a complete SSD1306-compatible OLED display driver written in Verilog HDL.
 It includes initialization, screen clearing, character rendering, pixel-level draw engines, and an integrated I²C master controller.
-The design is modular, lightweight, and suitable for FPGA/ASIC projects.
+The design is modular, lightweight, and suitable for FPGA projects.
 
 ---
 
