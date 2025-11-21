@@ -17,9 +17,9 @@ module oled_fx_char(
 
     // control
     input           is_run,
-    input           dy_active,   // 来自动态模块
-    input           draw_busy,   // 来自 char_gen
-    input           draw_done,   // 来自 char_gen
+    input           dy_active,   
+    input           draw_busy,   
+    input           draw_done,   
 
     // output to top for muxing
     output reg      fix_active,
