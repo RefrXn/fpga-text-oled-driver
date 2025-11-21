@@ -4,7 +4,7 @@
 
 This project provides a lightweight, synthesizable OLED text display driver written entirely in **Verilog-2001**.  
 
-**no UART, microcontroller, or software host is required.**
+**no UART, MicroBlaze IP, or software host is required.**
 
 This repository contains a complete SSD1306-compatible OLED display driver written in Verilog-2001.
 It includes initialization, screen clearing, character rendering, pixel-level draw engines, and an integrated I²C master controller.
