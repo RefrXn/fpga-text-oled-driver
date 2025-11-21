@@ -24,6 +24,50 @@ The design is modular, lightweight, and suitable for FPGA projects.
 
 ---
 
+##  Usage
+
+    top_oled_driver u_oled(
+        .clk_50m    (clk_50m),
+        .rst_n      (rst_n),
+
+        // Fixed set 0
+        .fixed_char (fixed_char),
+        .fixed_x    (fixed_x),
+        .fixed_y    (fixed_y),
+
+        // Fixed set 1
+        .fixed_char1(fixed_char1),
+        .fixed_x1   (fixed_x1),
+        .fixed_y1   (fixed_y1),
+
+        // Fixed set 2
+        .fixed_char2(fixed_char2),
+        .fixed_x2   (fixed_x2),
+        .fixed_y2   (fixed_y2),
+
+        // Dynamic set 0
+        .dy_value   (dy_value),
+        .dy_x       (dy_x),
+        .dy_y       (dy_y),
+
+        // Dynamic set 1
+        .dy_value1  (dy_value1),
+        .dy_x1      (dy_x1),
+        .dy_y1      (dy_y1),
+
+        // Dynamic set 2
+        .dy_value2  (dy_value2),
+        .dy_x2      (dy_x2),
+        .dy_y2      (dy_y2),
+
+        .busy       (busy),
+
+        .iic_scl    (iic_scl),
+        .iic_sda    (iic_sda)
+    );
+
+---
+
 ##  Module Hierarchy
 
 ```
@@ -41,6 +85,8 @@ u_oled : top_oled_driver
 ├── u_sel   : oled_sel
 └── u_iic   : oled_iic_driver
 ```
+
+---
 
 ## License
 
